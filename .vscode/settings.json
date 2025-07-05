@@ -1,0 +1,31 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+
+
+  // format with cntrl +s
+  "editor.formatOnSave": true,
+
+  // make python a little more static
+  "python.analysis.typeCheckingMode": "basic",
+
+
+  // some opinionated-ly nice notebook settings
+  "notebook.output.scrolling": true,
+  "notebook.output.textLineLimit": 30,
+  "notebook.diff.ignoreOutputs": false
+
+  // some opinionated-ly interactive session/window settings
+  
+}
